@@ -2,15 +2,16 @@
 ## Andrew Lounsbury
 Module 5 challenge for the Vanderbilt Data Analytics Bootcamp
 
-# Code from statology.org
+# Code from pandas.pydata.org and the instructors
 The cell 
 ```
 # Getting the duplicate mice by ID number that shows up for Mouse ID and Timepoint. 
-# https://www.statology.org/pandas-find-duplicates/
-duplicate = data_complete[data_complete.duplicated()]
+# https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.duplicated.html
+smaller_data = data_complete[["Mouse ID", "Timepoint"]]
+duplicate = smaller_data.loc[smaller_data.duplicated(subset=["Mouse ID", "Timepoint"]), "Mouse ID"].unique()
 duplicate
 ```
-contains a function demonstrated on [this website](https://www.statology.org/pandas-find-duplicates/). 
+contains a function that is demonstrated on [this website](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.duplicated.html) and was explained by our instructors. 
 
 # Data
 ![dataframe](images/df.png)
