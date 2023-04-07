@@ -59,7 +59,7 @@ Ceftamin's potential outliers: Series([], Name: Tumor Volume (mm3), dtype: float
 
 ![line graph](images/4_line.png)
 
-![scatter plot](images/5_scatter.png)
+![scatter plot](images/5_regression.png)
 
 ![regressions](images/6_regressions.png)
 
