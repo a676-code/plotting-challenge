@@ -65,7 +65,7 @@ Ceftamin's potential outliers: Series([], Name: Tumor Volume (mm3), dtype: float
 
 ### Analysis
 - These tests were administered to about the same number of male and female mice. 
-- The drug regimens administered to the greatest numbers of mice were Capomulin and Ramicane. Hence, results yielded by these treatments were perhaps the more reliable than others. Although, we did find outliers among the tumor volumes for both the Capomulin and Ramicane treatments. 
+- The drug regimens administered to the greatest numbers of mice were Capomulin and Ramicane. However, we did find outliers among the tumor volumes for both of these treatments. 
 - Mouse b128, a subject of the Capomulin regimen, showed a drastic decrease in tumor volume over the course of her treatment. 
 - The median tumor volume for Capomulin and Ramicane (41.56mm3 and 40.67mm3, respectively) were lower than the median tumor volumes of all other treatments. 
 - For the Capomulin regimen, heavier mice were linearly correlated with tumors of greater volume, with a fairly high r-value of about 0.84. This begs the question of whether or not male or female mice tend to be heavier and therefore more prone to larger tumors; although, in these experiments the average weight of male mice, 25.42g, happened to be slightly less than the average weight of female mice in these experiments, which was 25.92g. Also, for the Capomulin regimen, we found that the correlation between weight and Average Tumor Volume was stronger for female mice, with an r-value of 0.91, than the same correlation for male mice, which had an r-value of 0.77. 
